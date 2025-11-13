@@ -1,0 +1,24 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Peter Chen's Personal Website"
+theme = "peterchen-darktech"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Peter Chen's Personal Website"
+
+  [languages.zh]
+    languageName = "中文"
+    weight = 2
+    title = "彼得·陈的个人网站"
+
+[params]
+  description = "Stay hungry, Stay foolish."
+  wechat = "wxh2980886578"
+  qq = "2980886578"
+  gmail = "morpheus980506@gmail.com"
+  phone = "13586183779"
+
