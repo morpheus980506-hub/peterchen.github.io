@@ -1,24 +1,52 @@
-baseURL = "http://localhost:1313/"
-languageCode = "en-us"
+# 网站基本信息
+baseURL = "https://peterchen.github.io/peterchen-website/"
+languageCode = "zh-CN"
 title = "Peter Chen's Personal Website"
 theme = "peterchen-darktech"
-defaultContentLanguage = "en"
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
-    title = "Peter Chen's Personal Website"
 
-  [languages.zh]
-    languageName = "中文"
-    weight = 2
-    title = "彼得·陈的个人网站"
-
+# 作者信息
 [params]
-  description = "Stay hungry, Stay foolish."
+  description = "构建属于我的个人网站 —— 深色科技风博客诞生记"
   wechat = "wxh2980886578"
   qq = "2980886578"
-  gmail = "morpheus980506@gmail.com"
-  phone = "13586183779"
+  mobile = "13586183779"
+
+[params.Author]
+  name = "Peter Chen"
+  email = "morpheus980506@gmail.com"
+
+# 配色方案
+[params.colorScheme]
+  default = "dark"
+
+# 菜单配置（可选）
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "博客"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "关于"
+  url = "/about"
+  weight = 3
+
+# 分页配置（Hugo 0.128+ 版本推荐）
+[pagination]
+  pagerSize = 5
+
+# 语言设置（多语言可扩展）
+[languages]
+  [languages.en]
+    title = "Peter Chen's Personal Website"
+    weight = 1
+  [languages.zh]
+    title = "Peter Chen 的个人网站"
+    weight = 2
+
 

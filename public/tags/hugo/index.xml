@@ -1,59 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Peter Chen&#39;s Personal Website</title>
-        <link>https://peterchen.github.io/peterchen-website/</link>
-        <description>Recent content on Peter Chen&#39;s Personal Website</description>
+        <title>Hugo on Peter Chen&#39;s Personal Website</title>
+        <link>https://peterchen.github.io/peterchen-website/tags/hugo/</link>
+        <description>Recent content in Hugo on Peter Chen&#39;s Personal Website</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <managingEditor>morpheus980506@gmail.com (Peter Chen)</managingEditor>
         <webMaster>morpheus980506@gmail.com (Peter Chen)</webMaster>
-        <lastBuildDate>Fri, 14 Nov 2025 20:00:00 +0800</lastBuildDate><atom:link href="https://peterchen.github.io/peterchen-website/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>About Me</title>
-        <link>https://peterchen.github.io/peterchen-website/about/</link>
-        <pubDate>Fri, 14 Nov 2025 20:00:00 +0800</pubDate>
-        <author>morpheus980506@gmail.com (Peter Chen)</author>
-        <guid>https://peterchen.github.io/peterchen-website/about/</guid>
-        <description>&lt;h1 id=&#34;-hi我是-peter-chen&#34;&gt;👋 Hi，我是 Peter Chen
-&lt;/h1&gt;&lt;p&gt;一名对 &lt;strong&gt;无人机、嵌入式系统、AI 计算和网络技术&lt;/strong&gt; 充满兴趣的计算机科学专业学生。目前在不断探索硬件与软件结合的可能性。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-我在做的事情&#34;&gt;🧬 我在做的事情
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;使用 &lt;strong&gt;Pixhawk 6X + Raspberry Pi 5 + Jetson&lt;/strong&gt; 构建无人机伴控系统&lt;/li&gt;
-&lt;li&gt;设计安全守护进程（Watchdog）与黑匣子日志系统&lt;/li&gt;
-&lt;li&gt;学习 Python / C++ / Rust / Go&lt;/li&gt;
-&lt;li&gt;深入理解 Linux、树莓派、网络与系统工程&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-技能栈持续扩充中&#34;&gt;🔧 技能栈（持续扩充中）
-&lt;/h2&gt;&lt;h3 id=&#34;语言&#34;&gt;语言
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Python&lt;/li&gt;
-&lt;li&gt;C / C++&lt;/li&gt;
-&lt;li&gt;Go&lt;/li&gt;
-&lt;li&gt;Bash&lt;/li&gt;
-&lt;li&gt;少量 Rust&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;工具--硬件&#34;&gt;工具 &amp;amp; 硬件
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Raspberry Pi 5&lt;/li&gt;
-&lt;li&gt;Pixhawk 系列飞控&lt;/li&gt;
-&lt;li&gt;Jetson Nano / Orin&lt;/li&gt;
-&lt;li&gt;Git, GitHub&lt;/li&gt;
-&lt;li&gt;VS Code, PyCharm, CLion&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-联系方式&#34;&gt;🌐 联系方式
-&lt;/h2&gt;&lt;p&gt;（你可在后续自行修改）&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Email: &lt;em&gt;待填写&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;GitHub: &lt;em&gt;待填写&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;这是我在网络上的小基地，欢迎随时来看看。&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Fri, 14 Nov 2025 20:00:00 +0800</lastBuildDate><atom:link href="https://peterchen.github.io/peterchen-website/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>构建属于我的个人网站 —— 深色科技风博客诞生记</title>
         <link>https://peterchen.github.io/peterchen-website/posts/first-post/</link>
         <pubDate>Fri, 14 Nov 2025 20:00:00 +0800</pubDate>

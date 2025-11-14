@@ -1,0 +1,27 @@
+name: Build and Deploy Hugo site
+
+on:
+  push:
+    branches:
+      - main  # 或者你使用的主分支名
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v0.12.0
+        with:
+          hugo-version: '0.152.2'
+
+      - name: Build Hugo site
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

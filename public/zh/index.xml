@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title></title>
-    <link>//localhost:1313/zh/</link>
-    <description>Recent content on </description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+    <channel>
+        <title>Peter Chen 的个人网站</title>
+        <link>https://peterchen.github.io/peterchen-website/zh/</link>
+        <description>Recent content on Peter Chen 的个人网站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh</language>
+        <managingEditor>morpheus980506@gmail.com (Peter Chen)</managingEditor>
+        <webMaster>morpheus980506@gmail.com (Peter Chen)</webMaster><atom:link href="https://peterchen.github.io/peterchen-website/zh/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>
