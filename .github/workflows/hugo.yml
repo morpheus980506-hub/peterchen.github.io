@@ -1,5 +1,6 @@
 name: Build and Deploy Hugo Site
 
+# 支持推送到 main 分支和手动触发
 on:
   push:
     branches:
@@ -11,24 +12,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ 检出仓库代码
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           submodules: recursive
 
+      # 2️⃣ 安装 Hugo
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v5
+        uses: peaceiris/actions-hugo@v4
         with:
           hugo-version: '0.152.2'
           extended: true
 
+      # 3️⃣ 构建 Hugo 网站
       - name: Build site
         run: hugo --minify
 
+      # 4️⃣ 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v7
+        uses: peaceiris/actions-gh-pages@v6
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           keep_files: true
-          publish_branch: gh-pages
