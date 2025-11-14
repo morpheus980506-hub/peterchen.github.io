@@ -1,13 +1,8 @@
-HEAD
-name: GitHub Pages Hugo Deploy
-
-name: Deploy Hugo site to GitHub Pages
-7f3ea8b (Add Hugo GitHub Pages deployment workflow)
+name: Build and Deploy Hugo Site
 
 on:
   push:
     branches:
-HEAD
       - main
   workflow_dispatch:
 
@@ -15,41 +10,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-      - main    # 你日常开发的分支
-  workflow_dispatch:
-
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-7f3ea8b (Add Hugo GitHub Pages deployment workflow)
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       - name: Setup Hugo
-HEAD
-        uses: peaceiris/actions-hugo@v4
-
         uses: peaceiris/actions-hugo@v5
- 7f3ea8b (Add Hugo GitHub Pages deployment workflow)
         with:
           hugo-version: '0.152.2'
           extended: true
 
-      - name: Build Hugo site
+      - name: Build site
         run: hugo --minify
 
       - name: Deploy to GitHub Pages
- HEAD
-        uses: peaceiris/actions-gh-pages@v6
+        uses: peaceiris/actions-gh-pages@v5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-
-        uses: peaceiris/actions-gh-pages@v7
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-
-7f3ea8b (Add Hugo GitHub Pages deployment workflow)
+          keep_files: true
