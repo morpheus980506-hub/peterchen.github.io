@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hugo on Peter Chen</title>
+        <link>http://localhost:1313/tags/hugo/</link>
+        <description>Recent content in Hugo on Peter Chen</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <lastBuildDate>Fri, 14 Nov 2025 20:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>构建属于我的个人网站 —— 深色科技风博客诞生记</title>
+        <link>http://localhost:1313/posts/first-post/</link>
+        <pubDate>Fri, 14 Nov 2025 20:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/posts/first-post/</guid>
+        <description>&lt;p&gt;这是我正式搭建的 &lt;strong&gt;第一个个人网站&lt;/strong&gt;，主题方向是深色科技风，并加入了电子紫的赛博朋克元素。为了完整记录整个过程，我决定写下这篇文章。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-为什么选择-hugo&#34;&gt;🚀 为什么选择 Hugo？
+&lt;/h2&gt;&lt;p&gt;我希望我的网站：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;加载速度极快&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;干净、结构化&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可以随时扩展&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主题够科技感&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hugo 属于静态站点生成器，拥有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;极致构建速度&lt;/li&gt;
+&lt;li&gt;强大的模板系统&lt;/li&gt;
+&lt;li&gt;完美适配 GitHub Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;非常适合我这种「喜欢折腾 + 希望可控」的使用者。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-主题选择stack深色科技风&#34;&gt;🎨 主题选择：Stack（深色+科技风）
+&lt;/h2&gt;&lt;p&gt;Stack 本身自带优秀的深色风格，我将它 fork 成了自己的版本：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主色调改为 &lt;strong&gt;电子紫&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;部分 UI 采用半透明玻璃效果&lt;/li&gt;
+&lt;li&gt;代码框字体换成 JetBrains Mono&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;显示效果非常符合我想要的科技氛围。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-搭建流程简述&#34;&gt;🧱 搭建流程（简述）
+&lt;/h2&gt;&lt;p&gt;我主要做了以下步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;安装 Hugo（extended）&lt;/li&gt;
+&lt;li&gt;初始化站点&lt;/li&gt;
+&lt;li&gt;添加 Stack 主题（Git 子模块）&lt;/li&gt;
+&lt;li&gt;编写 config.toml&lt;/li&gt;
+&lt;li&gt;本地预览与调试&lt;/li&gt;
+&lt;li&gt;使用 GitHub Pages 自动部署&lt;/li&gt;
+&lt;li&gt;调整自定义 CSS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;期间遇到过 Git 识别路径的问题，也已经顺利解决。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-展望&#34;&gt;🔮 展望
+&lt;/h2&gt;&lt;p&gt;接下来我会在这个网站上更新：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;无人机项目开发笔记&lt;/li&gt;
+&lt;li&gt;Raspberry Pi + Jetson AI 实验&lt;/li&gt;
+&lt;li&gt;Pixhawk 6X 伴控架构方案&lt;/li&gt;
+&lt;li&gt;课程学习记录&lt;/li&gt;
+&lt;li&gt;技术文章与随笔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望这个网站能成为我未来几年持续成长的记录。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;欢迎来到我的空间。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

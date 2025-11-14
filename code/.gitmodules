@@ -1,0 +1,3 @@
+[submodule "themes/peterchen-darktech"]
+	path = themes/peterchen-darktech
+	url = https://github.com/CaiJimmy/hugo-theme-stack

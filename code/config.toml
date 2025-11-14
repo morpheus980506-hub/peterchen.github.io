@@ -1,0 +1,62 @@
+baseURL = "https://morpheus980506-hub.github.io/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Peter Chen"
+theme = "peterchen-darktech"
+enableRobotsTXT = true
+
+[params]
+  description = "Stay hungry, Stay foolish."
+  wechat = "wxh2980886578"
+  qq = "2980886578"
+  gmail = "morpheus980506@gmail.com"
+  phone = "13586183779"
+
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Peter Chen"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 3
+
+  [languages.zh]
+    languageName = "中文"
+    weight = 2
+    title = "彼得·陈的个人网站"
+    [languages.zh.menu]
+      [[languages.zh.menu.main]]
+        identifier = "home"
+        name = "首页"
+        url = "/zh/"
+        weight = 1
+      [[languages.zh.menu.main]]
+        identifier = "posts"
+        name = "文章"
+        url = "/zh/posts/"
+        weight = 2
+      [[languages.zh.menu.main]]
+        identifier = "about"
+        name = "关于"
+        url = "/zh/about/"
+        weight = 3
+
+[pagination]
+  pagerSize = 10
+
+
